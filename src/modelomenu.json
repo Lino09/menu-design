@@ -1,0 +1,289 @@
+{
+    "name": "BigWings",
+    "logo": "https://image.freepik.com/vector-gratis/cocina-restaurante-logo-design-vector-retro_7888-179.jpg",
+    "menu": [{
+        "title": "Botaneras",
+        "img": "https://images-gmi-pmc.edge-generalmills.com/c973c4f1-e5cf-4702-b40c-764f0a7c3734.jpg",
+        "options": [{
+            "name": "Boneless wings",
+            "img": "https://img.culturacolectiva.com/cdn-cgi/image/f=auto,w=1600,q=80,fit=contain/content_image/2020/7/21/1595373113770-boneless.001.jpeg",
+            "nameid": "boneless-wings",
+            "######Commentario####": "nameid SE USA PARA GENERAR LINK PERO CREO QUE PODEMOS USAR SOLO EL NAME",
+            "price": 199,
+            "calories": 200,
+            "ingredients": ["150g de Pollo", "Ensalada de apio y zanahoria", "Aderezo Ranch"],
+            "radioptions": [{
+                    "name": "seleccione el tamaño de su porcion",
+                    "options": [{
+                            "name": "grande",
+                            "extraprice": 30,
+                            "extracal": 200,
+                            "selected": false
+                        },
+                        {
+                            "name": "Mediana",
+                            "extraprice": 20,
+                            "extracal": 100,
+                            "selected":false
+
+                        },
+                        {
+                            "name": "Chica",
+                            "extraprice": 0,
+                            "extracal": 0,
+                            "selected":true
+
+                        }
+                    ]
+                },
+                {
+                    "name": "Seleccione sabor",
+                    "options": [{
+                            "name": "Lemon Pepper",
+                            "extraprice": 0,
+                            "extracal": -50,
+                            "selected":false
+                        },
+                        {
+                            "name": "Mango Habanero",
+                            "extraprice": 0,
+                            "extracal": 100,
+                            "selected":false
+
+                        },
+                        {
+                            "name": "BBQ",
+                            "extraprice": 0,
+                            "extracal": 0,
+                            "selected":true
+
+                        }
+                    ]
+                }
+
+            ],
+            "extras": [
+                {
+                    "name": "Aros de cebolla",
+                    "extraprice": 25,
+                    "extracal": 50,
+                    "selected":false
+                },
+                {
+                    "name": "Papas a la francesa",
+                    "extraprice": 35,
+                    "extracal": 70,
+                    "selected":false
+                },
+                {
+                    "name": "Papas Gajo",
+                    "extraprice": 35,
+                    "extracal": 120,
+                    "selected":false
+                },
+                {
+                    "name": "Nachos",
+                    "extraprice": 55,
+                    "extracal": 75,
+                    "selected":false
+                }
+            ]
+        },
+        {
+            "name": "Burguers",
+            "img": "https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2012/01/comida-rapida-casera.jpg",
+            "nameid": "burguers",
+            "######Commentario####": "nameid SE USA PARA GENERAR LINK PERO CREO QUE PODEMOS USAR SOLO EL NAME",
+            "price": 120,
+            "calories": 300,
+            "ingredients": ["150g de Proteina", "Lechuga","Jitomate","cebolla","75g de Pan(Bollo)","Guarnición)"],
+            "radioptions": [{
+                    "name": "seleccione la proteína",
+                    "options": [{
+                            "name": "Sirloin",
+                            "extraprice": 0,
+                            "extracal": 0,
+                            "selected":true
+                        },
+                        {
+                            "name": "Pollo",
+                            "extraprice": 0,
+                            "extracal": -30,
+                            "selected":false
+
+                        },
+                        {
+                            "name": "Arrachera",
+                            "extraprice": 0,
+                            "extracal": 20,
+                            "selected":false
+
+                        }
+                    ]
+                },
+                {
+                    "name": "Elija su Guarnición",
+                    "options": [{
+                            "name": "Papas a la francesa",
+                            "extraprice": 0,
+                            "extracal": 0,
+                            "selected":true
+                        },
+                        {
+                            "name": "Papas Gajo",
+                            "extraprice": 10,
+                            "extracal": 50,
+                            "selected":false
+
+                        },
+                        {
+                            "name": "Aros de cebolla",
+                            "extraprice": 20,
+                            "extracal": 50,
+                            "selected":false
+
+                        }
+                    ]
+                }
+
+            ],
+            "extras": [
+                {
+                    "name": "Tocino",
+                    "extraprice": 10,
+                    "extracal": 50,
+                    "selected":false
+                },
+                {
+                    "name": "Aceituna negra",
+                    "extraprice": 15,
+                    "extracal": 10,
+                    "selected":false
+                },
+                {
+                    "name": "Extra porcion de carne",
+                    "extraprice": 35,
+                    "extracal": 100,
+                    "selected":false
+                },
+                {
+                    "name": "Piña",
+                    "extraprice":999,
+                    "extracal": 0,
+                    "selected":false
+                }
+            ]
+        }
+    ]
+    },
+    {
+        "title": "Mariscos",
+        "img": "https://www.cocinayvino.com/wp-content/uploads/2020/06/Mariscos-e1592426953245.jpg",
+        "options": [{
+            "name": "Filete de salmon",
+            "img": "https://www.eladerezo.com/wp-content/uploads/2019/01/salmon-a-la-naranja-1-scaled.jpg",
+            "nameid": "filete-de-salmon",
+            "######Commentario####": "nameid SE USA PARA GENERAR LINK PERO CREO QUE PODEMOS USAR SOLO EL NAME",
+            "price": 250,
+            "calories": 250,
+            "ingredients": ["180g de Salmon", "Ensalada de Esparrago, calabacín y zanahoria", "Aderezo de aceite de oliva, pimienta y limón","guarnición"],
+            "radioptions": [
+                {
+                    "name": "Seleccione sabor",
+                    "options": [{
+                            "name": "Arroz",
+                            "extraprice": 0,
+                            "extracal": 0,
+                            "selected": true
+                        },
+                        {
+                            "name": "Camote horneado",
+                            "extraprice": 0,
+                            "extracal": 50,
+                            "selected":false
+
+                        },
+                        {
+                            "name": "Puré de papa",
+                            "extraprice": 0,
+                            "extracal": 60,
+                            "selected":false
+
+                        }
+                    ]
+                }
+
+            ],
+            "extras": [
+                {
+                    "name": "Pasta pesto",
+                    "extraprice": 25,
+                    "extracal": 50,
+                    "selected":false
+                }
+            ]
+        },
+        {
+            "name": "Coctel de Camaron",
+            "img": "https://res.cloudinary.com/postedin/image/upload/d_cookcina:no-image.jpg,f_auto,q_80/cookcina/c-edff603d-c8dd-4dc6-a54f-879fe05a94ea_webp_net-resizeimage_(21).jpg",
+            "nameid": "coctel-de-camaron",
+            "######Commentario####": "nameid SE USA PARA GENERAR LINK PERO CREO QUE PODEMOS USAR SOLO EL NAME",
+            "price": 80,
+            "calories": 200,
+            "ingredients": ["150g Camaron", "verdura","Salsa de tomate","Guarnición)"],
+            "radioptions": [{
+                    "name": "seleccione tamaño",
+                    "options": [{
+                            "name": "Chico",
+                            "extraprice": 0,
+                            "extracal": 0,
+                            "selected":false
+                        },
+                        {
+                            "name": "Mediano",
+                            "extraprice": 15,
+                            "extracal": 30,
+                            "selected":false
+
+                        },
+                        {
+                            "name": "Arrachera",
+                            "extraprice": 25,
+                            "extracal": 35,
+                            "selected":false
+
+                        }
+                    ]
+                }
+            ],
+            "extras": [
+                {
+                    "name": "Jitomate",
+                    "extraprice": 0,
+                    "extracal": 0,
+                    "selected":true
+                },
+                {
+                    "name": "Cebolla",
+                    "extraprice": 0,
+                    "extracal": 0,
+                    "selected":true
+                },
+                {
+                    "name": "cilantro",
+                    "extraprice": 0,
+                    "extracal": 0,
+                    "selected":true
+                },
+                {
+                    "name": "pulpo",
+                    "extraprice": 20,
+                    "extracal": 10,
+                    "selected":false
+                }
+            ]
+        }
+    ]
+    }
+]
+}
